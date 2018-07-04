@@ -1,0 +1,36 @@
+.button {
+    border: none;
+    background-color: #eaeaea;
+    flex-basis: 25%;
+    font-size: 30px;
+    box-shadow: inset 1px 1px 0 0 #867777;
+}
+
+.button:hover,
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    background-color: #e0e0e0;
+}
+
+.button--grows {
+    flex-grow: 1;
+}
+
+.button--advanced-operation {
+    background-color: #dadada;
+}
+
+.button--advanced-operation:active {
+    background-color: #c7c7c7;
+}
+
+.button--basic-operation {
+    background-color: #f5923e;
+}
+
+.button--basic-operation:active {
+    background-color: #e0863a;
+}

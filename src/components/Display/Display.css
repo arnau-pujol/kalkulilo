@@ -1,0 +1,10 @@
+.display {
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 80px;
+    padding: 2px 5px;
+    background-color: #858694;
+    color: #fff;
+}
